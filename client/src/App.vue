@@ -24,15 +24,33 @@
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
+// import HelloWorld from "./components/HelloWorld";
 
 export default {
   name: "App",
-  components: {
-    HelloWorld
-  },
+  components: {},
   data: () => ({
     //
   })
 };
 </script>
+<style lang="scss">
+:root {
+  --offwhite: #f6f3e5;
+  --crimson: #540000;
+  --red: #840000;
+}
+
+* {
+  background-color: var(--offwhite);
+}
+
+h1 {
+  font-family: "Sorts Mill Goudy", serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+}
+</style>
